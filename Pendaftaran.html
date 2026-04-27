@@ -1,0 +1,91 @@
+<body>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr bgcolor="blue">
+            <th colspan="2">
+                <font color="white">FORM PENDAFTARAN OSIS</font>
+            </th>
+        </tr>
+        </thead>
+       
+        
+        <tr>
+            <td>
+                <form>
+                    <table cellpadding="5">
+                        <tr>
+                            <td width="180">Nama Lengkap</td>
+                            <td><input type="text" name="fullname" placeholder="Nama Lengkap"></td>
+                        </tr>
+                        <tr>
+                            <td>Nama Panggilan</td>
+                            <td><input type="text" name="nick" placeholder="Nama Panggilan"></td>
+                        </tr>
+                        <tr>
+                            <td>Tempat Tanggal Lahir</td>
+                            <td><input type="text" name="birth" placeholder="dd/mm/yyyy"></td>
+                        </tr>
+                        <tr>
+                            <td>Jenis Kelamin</td>
+                            <td>
+                                Laki-Laki <input type="radio" name="gender" value="L"> 
+                                Perempuan <input type="radio" name="gender" value="P">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Nomor Telepon</td>
+                            <td><input type="text" name="phone" placeholder="Telepon"></td>
+                        </tr>
+                        <tr>
+                            <td>Jurusan</td>
+                            <td>
+                                IPA <input type="radio" name="jurusan" value="IPA"> 
+                                IPS <input type="radio" name="jurusan" value="IPS"> 
+                                BAHASA <input type="radio" name="jurusan" value="BAHASA">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Agama</td>
+                            <td>
+                                <select name="agama">
+                                    <option value="islam">Islam</option>
+                                    <option value="kristen">Kristen</option>
+                                    <option value="katolik">Katolik</option>
+                                    <option value="hindu">Hindu</option>
+                                    <option value="budha">Budha</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Hobi</td>
+                            <td>
+                                Membaca Buku <input type="checkbox" name="hobi" value="membaca"> 
+                                Menulis <input type="checkbox" name="hobi" value="menulis"> 
+                                dll <input type="checkbox" name="hobi" value="dll">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">Alasan/Motivasi untuk mendaftar</td>
+                            <td>
+                                <textarea name="motivasi" rows="8" cols="30"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Foto 3X4</td>
+                            <td><input type="file" name="foto"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="2" align="center">
+                                <br>
+                                <input type="submit" value="Daftar"> 
+                                <input type="reset" value="Reset">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
